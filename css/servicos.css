@@ -108,7 +108,7 @@ body {
 /* ===== PROBLEM SECTION ===== */
 .problem-section {
   padding: 80px 40px;
-  background: white;
+  background: #f5f5f5;
 }
 
 .section-title {
@@ -127,7 +127,7 @@ body {
 }
 
 .problem-card {
-  background: #f8f9fa;
+  background: #eeeeee;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
