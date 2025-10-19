@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços | ConfiSafe</title>
+  <title>Home | ConfiSafe</title>
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
-  <link rel="stylesheet" href="/css/servicos.css">
+  <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
 
@@ -14,17 +14,59 @@
       <span class="conf">Confi</span><span class="safe">Safe</span>
     </div>
     <nav class="menu">
-      <a href="servico.html">Serviços</a>
+      <a href="home.html">Home</a>
       <a href="#">Contato</a>
       <a href="/index.html" class="login-btn">Login</a>
     </nav>
   </header>
 
-<section class="hero" style="background-image: url('/assets/img/confin_servicos.jpg');">
-    <h1>Solução Inteligente para Espaços Confinados</h1>
-    <p>Reduza acidentes e garanta conformidade com a NR-33 através do monitoramento automatizado de EPIs e controle de acesso     em tempo real.</p>
-    <a href="/index.html" class="cta-button">Acessar o Sistema</a>
-</section>
+  <section class="hero" style="background-image: url('/assets/img/confin_servicos.jpg');">
+      <h1>Solução Inteligente para Espaços Confinados</h1>
+      <p>Reduza acidentes e garanta conformidade com a NR-33 através do monitoramento automatizado de EPIs e controle de acesso     em tempo real.</p>
+      <a href="/index.html" class="cta-button">Acessar o Sistema</a>
+  </section>
+
+  <section class="carrossel">
+    <div class="slider">
+        <div class="slides">
+            <!-- Buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!-- Slides -->
+            <div class="slide first">
+                <img src="/assets/img/monitoramento.png" alt="monitoramento">
+            </div>
+            <div class="slide">
+                <img src="/assets/img/controle.png" alt="controle">
+            </div>
+            <div class="slide">
+                <img src="/assets/img/epi.png" alt="epi">
+            </div>
+            <div class="slide">
+                <img src="/assets/img/relatorio.png" alt="relatorio">
+            </div>
+
+            <!-- navegacao -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <script src="/js/carrossel.js"></script>
+  </section>
 
   <section class="problem-section">
     <h2 class="section-title">O Problema: Espaços Confinados</h2>
