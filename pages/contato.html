@@ -58,16 +58,16 @@
         <div class="formulario login-box"> 
           <h2>Envie sua Mensagem</h2>
           <p class="subtitle">Descreva sua solicitação e entraremos em contato.</p>
-          
+          <br>
           <form action="mailto:contatoconfisafe@gmail.com?subject=Contato via Formulário do Site" method="GET" enctype="text/plain">
             <label for="nome">Nome Completo</label>
-            <input type="text" id="nome" name="body_Nome" placeholder="Seu nome" required>
+            <input type="text" id="nome" name="Nome" autocomplete="name" placeholder="Seu nome" required>
 
             <label for="email">E-mail</label>
-            <input type="email" id="email" name="body_Email" placeholder="seu.email@exemplo.com" required> 
+            <input type="email" id="email" name="Email" autocomplete="email" placeholder="seu.email@exemplo.com" required> 
 
             <label for="motivo">Motivo do Contato</label>
-            <select id="motivo" name="body_Motivo" class="input-form" required> 
+            <select id="motivo" name="Motivo" class="input-form" required> 
                 <option value="">Selecione um motivo...</option>
                 <option value="Suporte">Suporte Técnico</option>
                 <option value="Comercial">Informações Comerciais/Orçamento</option>
@@ -76,7 +76,7 @@
             </select>
 
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="body_Mensagem" placeholder="Sua mensagem detalhada..." required></textarea>
+            <textarea id="mensagem" name="Mensagem" placeholder="Sua mensagem detalhada..." required></textarea>
 
             <button type="submit">Enviar Solicitação</button>
           </form>

@@ -1,16 +1,16 @@
 // Seleciona o formulário
 document.querySelector("form").addEventListener("submit", function(e) {
-  e.preventDefault(); // Impede o envio real do formulário
+  e.preventDefault(); // Impede pagina de recarregar
 
-  // Captura os valores dos campos
+  // Gurada os valores dos campos
   const nome = document.getElementById("nome").value.trim();
   const email = document.getElementById("email").value.trim();
   const motivo = document.getElementById("motivo").value;
   const mensagem = document.getElementById("mensagem").value.trim();
 
-  // Validação simples
+  // Validação 
   if (!nome || !email || !motivo || !mensagem) {
-    alert("⚠️ Por favor, preencha todos os campos antes de enviar.");
+    alert("Por favor, preencha todos os campos antes de enviar.");
     return;
   }
 
@@ -22,7 +22,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
   }
 
   // Exibe mensagem de sucesso
-  alert("✅ Sua mensagem foi enviada com sucesso!\nA equipe ConfiSafe entrará em contato em breve.");
+  alert("Sua mensagem foi enviada com sucesso!\nA equipe ConfiSafe entrará em contato em breve.");
 
   // Limpa o formulário
   e.target.reset();
