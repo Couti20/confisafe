@@ -282,11 +282,27 @@ body {
 }
 
 
-    /* ===== FOOTER ===== */
-    footer {
-      background: #fff;
-      padding: 15px;
-      text-align: center;
-      color: #333;
-      font-size: 0.9rem;
+/* ===== FOOTER ===== */
+footer {
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+/* Media Query para Responsividade */
+@media (max-width: 800px) {
+    .navbar {
+        padding: 15px 20px;
     }
+    .menu {
+        display: none; 
+    }
+    .grid-contato {
+        grid-template-columns: 1fr;
+    }
+    .contato-content {
+        padding: 25px;
+    }
+}
