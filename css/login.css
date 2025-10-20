@@ -141,3 +141,12 @@ main.login-container {
 .register-text a:hover {
   text-decoration: underline;
 }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #fff;
+      padding: 15px;
+      text-align: center;
+      color: #333;
+      font-size: 0.9rem;
+    }
