@@ -25,11 +25,11 @@
       <p class="subtitle">Acesso ao Sistema de Monitoramento de EPIs</p>
 
       <form>
-        <label for="email">Usuário ou e-mail</label>
-        <input type="email" id="email" placeholder="Digite seu e-mail" required>
-
+        <label for="email">E-mail</label>
+        <input type="email"     id="email"      name="email"      autocomplete="email"  placeholder="Digite seu e-mail" required />
+        
         <label for="senha">Senha</label>
-        <input type="password" id="senha" placeholder="Digite sua senha" required>
+        <input type="password"  id="senha"      name="senha"      autocomplete="new-password"  placeholder="Digite sua senha" required />
 
         <button type="submit">Entrar</button>
       </form>
@@ -43,5 +43,7 @@
   <footer>
     <p>&copy; 2025 ConfiSafe - Todos os direitos reservados.</p>
   </footer>
+
+      <script src="/js/login.js"></script>
 </body>
 </html>
